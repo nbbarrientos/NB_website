@@ -4,9 +4,9 @@ navbar:
   title: "Nelson Barrientos"
   right:
     - text: "Home"
-      href: NB_website.html
-    - text: "About"
       href: index.html
+    - text: "About"
+      href: NB_website.html
     - text: "CV"
       href: cv.html
     - icon: fa-github
