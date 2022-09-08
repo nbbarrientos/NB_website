@@ -3,7 +3,6 @@ output_dir: "docs"
 navbar:
   title: "Nelson Barrientos"
   right:
-  left:
     - text: "Home"
       href: index.html
     - text: "About"
