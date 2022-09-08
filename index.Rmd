@@ -1,9 +1,5 @@
 ---
-<<<<<<< HEAD
-title: "Hello there!!"
-=======
-title: "Home"
->>>>>>> bdaaf5a1fcf1d3a8ec8a4bef95ce77e8a28c8349
+title: "About Me"
 output: html_document
 ---
 
