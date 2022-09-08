@@ -2,7 +2,7 @@ name: ""
 output_dir: "docs"
 navbar:
   title: "Nelson Barrientos"
-  left:
+  right:
     - text: "Home"
       href: index.html
     - text: "About"
