@@ -1,18 +1,23 @@
-name: ""
+name: "NB_website"
+title: "Nelson Barrientos"
 output_dir: "docs"
 navbar:
-  title: "Nelson Barrientos"
   right:
     - text: "Home"
       href: index.html
     - text: "About"
-      href: NB_website.html
+      href: about.html
     - text: "CV"
       href: cv.html
+  left:
     - icon: fa-github
       href: https://github.com/nbbarrientos
-    - icon: fa-linkedin
+    - image: linkedin.png
       href: https://www.linkedin.com/in/nelson-barrientos/
-output:
-  html_document:
-    theme: cosmo
+    - image: twitter.png
+      href: https://twitter.com/nbarrientos23
+    - image: google-scholar.png
+      href: https://scholar.google.com/citations?user=LYvFsmkAAAAJ&hl=en
+    - image: orcid.png
+      href: https://orcid.org/0000-0001-8971-3784
+output: distill::distill_article
