@@ -2,11 +2,14 @@ name: ""
 output_dir: "docs"
 navbar:
   title: "Nelson Barrientos"
+  right:
   left:
     - text: "Home"
       href: index.html
     - text: "About"
       href: NB_website.html
+    - text: "CV"
+      href: cv.html
 output:
   html_document:
     theme: cosmo
