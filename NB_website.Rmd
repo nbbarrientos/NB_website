@@ -6,7 +6,3 @@ title: "About Me"
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-<<<<<<< HEAD
-
-=======
->>>>>>> bdaaf5a1fcf1d3a8ec8a4bef95ce77e8a28c8349
