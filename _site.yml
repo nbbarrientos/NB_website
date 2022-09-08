@@ -9,6 +9,8 @@ navbar:
       href: NB_website.html
     - text: "CV"
       href: cv.html
+    - text: "CV"
+      href: cv.html
 output:
   html_document:
     theme: cosmo
