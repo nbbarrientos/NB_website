@@ -13,8 +13,6 @@ navbar:
       href: https://github.com/nbbarrientos
     - icon: fa-linkedin
       href: https://www.linkedin.com/in/nelson-barrientos/
-    - image: scholar-google.png
-      href: https://scholar.google.com/citations?user=LYvFsmkAAAAJ&hl=en
 output:
   html_document:
     theme: cosmo
