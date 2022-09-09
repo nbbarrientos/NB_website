@@ -1,12 +1,18 @@
 name: "NB_website"
 title: "Nelson Barrientos"
 output_dir: "docs"
+favicon: nb_logo.ico
 navbar:
   right:
     - text: "Home"
       href: index.html
     - text: "About"
       href: about.html
+    - text: "Research"
+      menu:
+        - text: "Projects"
+        - text: "Publications"
+        - text: "Talks"
     - text: "CV"
       href: cv.html
   left:
@@ -20,6 +26,8 @@ navbar:
       href: https://scholar.google.com/citations?user=LYvFsmkAAAAJ&hl=en
     - image: orcid.png
       href: https://orcid.org/0000-0001-8971-3784
+  logo:
+    image: nb_logo.png
 output: 
   distill::distill_article:
     theme: theme.css
