@@ -6,15 +6,15 @@
       "description": "Some additional details about the website",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2022-09-08T11:41:18-04:00"
+      "last_modified": "2022-09-08T22:09:12-04:00"
     },
     {
       "path": "cv.html",
       "title": "CV",
       "description": "CV will go here",
       "author": [],
-      "contents": "\n\n\n\n",
-      "last_modified": "2022-09-08T11:41:19-04:00"
+      "contents": "\n\nDownload Barrientos_resume_Aug_2022.pdf\n\n\n\n\n",
+      "last_modified": "2022-09-08T22:09:14-04:00"
     },
     {
       "path": "index.html",
@@ -22,7 +22,7 @@
       "description": "Welcome to the website. I hope you enjoy it!\n",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2022-09-08T11:41:27-04:00"
+      "last_modified": "2022-09-08T22:09:15-04:00"
     }
   ],
   "collections": []
