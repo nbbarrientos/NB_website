@@ -5,14 +5,15 @@
       "title": "About Me",
       "author": [],
       "contents": "\n\n\n\n\n\n\n",
-      "last_modified": "2022-09-08T23:23:22-04:00"
+      "last_modified": "2022-09-08T22:35:36-04:00"
     },
     {
       "path": "cv.html",
       "title": "CV",
+      "description": "CV will go here",
       "author": [],
-      "contents": "\n\n\n\n\n\n",
-      "last_modified": "2022-09-08T23:23:23-04:00"
+      "contents": "\n\nDownload Barrientos_resume_Aug_2022.pdf\n\n\n\n\n",
+      "last_modified": "2022-09-08T22:35:30-04:00"
     },
     {
       "path": "index.html",
@@ -20,7 +21,7 @@
       "description": "Welcome to the website. I hope you enjoy it!\n",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2022-09-08T23:23:37-04:00"
+      "last_modified": "2022-09-08T22:35:31-04:00"
     }
   ],
   "collections": []

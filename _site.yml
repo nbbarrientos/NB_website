@@ -8,11 +8,11 @@ navbar:
     - text: "About"
       href: about.html
     - text: "CV"
-      href: Barrientos_resume_Aug_2022.pdf
+      href: cv.html
   left:
     - icon: fa-github
       href: https://github.com/nbbarrientos
-    - image: linkedin.png
+    - icon: fa-linkedin
       href: https://www.linkedin.com/in/nelson-barrientos/
     - image: twitter.png
       href: https://twitter.com/nbarrientos23

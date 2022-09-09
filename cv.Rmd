@@ -1,13 +1,11 @@
 ---
 title: "CV"
-description: |
-  CV will go here
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-```{r echo=FALSE}
-xfun::embed_file('Barrientos_resume_Aug_2022.pdf')
+```{r out.width='1000px', out.height='800px', fig.align='center', echo=FALSE}
+knitr::include_graphics("cv.pdf")
 ```

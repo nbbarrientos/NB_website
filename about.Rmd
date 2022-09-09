@@ -1,10 +1,12 @@
 ---
-title: "About this site"
-description: |
-  Some additional details about the website
+title: "About Me"
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+
+```{r out.width='150px', out.extra='style="float:center; padding:10px"', echo=FALSE}
+knitr::include_graphics("photo.png")
+```
