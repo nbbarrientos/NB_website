@@ -8,7 +8,7 @@ navbar:
     - text: "About"
       href: about.html
     - text: "CV"
-      href: cv.html
+      href: Barrientos_resume_Aug_2022.pdf
   left:
     - icon: fa-github
       href: https://github.com/nbbarrientos
@@ -20,4 +20,6 @@ navbar:
       href: https://scholar.google.com/citations?user=LYvFsmkAAAAJ&hl=en
     - image: orcid.png
       href: https://orcid.org/0000-0001-8971-3784
-output: distill::distill_article
+output: 
+  distill::distill_article:
+    theme: theme.css

@@ -1,18 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
 
- /*------------- Whole Document---------------- */
-
 body {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 19px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #0a0a0a;
 }
 
+/* --------------Navbar-------------------- */
 
-/* ------------- links ------------*/
-a {
-  color: #605ecf;
-}
-
-a:hover {
-  color: #0c0b4f; /*Darker color*/
+.distill-site-header{ 
+  padding: 1px 0px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 15px;
 }
