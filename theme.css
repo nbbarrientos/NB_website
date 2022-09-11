@@ -91,8 +91,10 @@ d-title h1, h2, h3 {
 .nav-dropdown-content {
   color: black;
   background-color: white;
-  --hover-color:   #010445;
+  font-family: 'Roboto Condensed', sans-serif;
+  --hover-color: black;
 }
+
 
 .icon-link {
     background-color: white;
@@ -106,9 +108,6 @@ d-title h1, h2, h3 {
     background-color: rgba(181, 224, 72, 0.3);
 }
 
-h1, h2, h3 {
-  
-}
 
 
 
