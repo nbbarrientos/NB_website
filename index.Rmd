@@ -1,18 +1,26 @@
 ---
 title: "Hello there!!!"
-description: |
-  Welcome to the website. I hope you enjoy it!
+description: ""
 site: distill::distill_website
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
-
-# Learn more about creating websites with Distill at:
-# https://rstudio.github.io/distill/website.html
-
-# Learn more about publishing to GitHub Pages at:
-# https://rstudio.github.io/distill/publish_website.html#github-pages
-
+source(file.path("R", "functions.R"))
 ```
 
+# Website under construction
+
+``` {r buttons, include=T}
+
+# icon_link_img(
+#     icon = "orcid.png",
+#     url  = "https://orcid.org/0000-0001-8971-3784"
+# )
+# 
+# icon_link_img(
+#     icon = "twitter.png",
+#     url = "https://twitter.com/nbarrientos23"
+# )
+
+```
