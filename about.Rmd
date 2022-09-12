@@ -8,7 +8,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 
 ```{r out.width='150px', fig.align='center', echo=FALSE}
-knitr::include_graphics("photo.png")
+knitr::include_graphics("images/nbarrientos.png")
 ```
 
 Hello there!! Thank you for visiting my page. A little bit about me, my name is Nelson Barrientos; I was born in El Salvador but have been living in the United States since 2010. I'm a very outgoing person who enjoys many things in life. I like watching sports, especially soccer. I'm a big Real Madrid fan. I also like to do outdoor activities such as hiking, biking, and kayaking. I'm also a big fan of Marvel and Star Wars movies. 

@@ -4,8 +4,19 @@ title: "CV"
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+source(file.path("R", "functions.R"))
 ```
 
-```{r out.width='1000px', out.height='800px', fig.align='center', echo=FALSE}
+``` {r buttons, include=T}
+
+icon_link_text(
+    text = "Download",
+    url  = "cv.pdf"
+)
+
+```
+
+\newline
+```{r out.width='1000px', out.height='800px', layout="l-body-outset", fig.align='left', echo=FALSE}
 knitr::include_graphics("cv.pdf")
 ```

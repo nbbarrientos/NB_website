@@ -113,22 +113,6 @@ d-title h1, h2, h3 {
   font-weight: 700;
 }
 
-
-
-/* Aesthetics for link buttoms */
-.icon-link {
-    background-color: white;
-    color: white;
-    padding: 23px 7px 3px 7px;
-    margin: 0 2px 0 2px;
-    border-radius: 6px; /* Rounded edges */
-}
-
-.icon-link:hover {
-    background-color: rgba(181, 224, 72, 0.3);
-}
-
-
 /* Aesthetics for link images in nav bar*/
 .distill-site-header .nav-image:hover {
   background-color: var(--color-hover-over);
@@ -149,4 +133,17 @@ d-title h1, h2, h3 {
   background-color: var(--color-background);
 }
 
+/* Aesthetics for link buttoms */
+.icon-link {
+    background-color: var(--color-background);
+    color: var(--color-text-hover);
+    padding: 3px 7px 3px 7px;
+    margin: 0 2px 0 2px;
+    border-radius: 6px; /* Rounded edges */
+}
+
+.icon-link:hover {
+    background-color: var(--color-background);
+    font-weight: 700;
+}
 
