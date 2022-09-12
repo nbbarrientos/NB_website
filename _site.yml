@@ -1,11 +1,9 @@
 name: "NB_website"
 title: "Nelson Barrientos"
-output_dir: "docs"
-favicon: nb_logo.ico
+output_dir: "_docs"
+favicon: images/nb_logo.ico
 navbar:
   right:
-    - text: "Home"
-      href: index.html
     - text: "About"
       href: about.html
     - text: "Research"
@@ -19,18 +17,19 @@ navbar:
     - text: "CV"
       href: cv.html
   left:
-    - image: github.png
+    - image: images/github.png
       href: https://github.com/nbbarrientos
-    - image: linkedin.png
+    - image: images/linkedin.png
       href: https://www.linkedin.com/in/nelson-barrientos/
-    - image: twitter.png
+    - image: images/twitter.png
       href: https://twitter.com/nbarrientos23
-    - image: google-scholar.png
+    - image: images/google-scholar.png
       href: https://scholar.google.com/citations?user=LYvFsmkAAAAJ&hl=en
-    - image: orcid.png
+    - image: images/orcid.png
       href: https://orcid.org/0000-0001-8971-3784
+  search: true
   logo:
-    image: nb_logo.png
+    image: images/nb_logo.png
     href: index.html
 output: 
   distill::distill_article:

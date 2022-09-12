@@ -1,26 +1,23 @@
 ---
-title: "Hello there!!!"
-description: ""
+title: "Nelson Barrientos"
+image: "images/nbarrientos.png"
+links:
+  - label: GitHub
+    url: "https://github.com/nbbarrientos"
+  - label: LinkedIn
+    url: "https://www.linkedin.com/in/nelson-barrientos/"
+  - label: Twitter
+    url: "https://twitter.com/nbarrientos23"
+  - label: Scholar
+    url: "https://scholar.google.com/citations?user=LYvFsmkAAAAJ&hl=en"
+  - label: ORCID
+    url: "https://orcid.org/0000-0001-8971-3784"
+  - label: Email
+    url: "mailto:nbarrie1@jhu.edu"
 site: distill::distill_website
+output:
+  postcards::trestles
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-source(file.path("R", "functions.R"))
-```
 
 # Website under construction
 
-``` {r buttons, include=T}
-
-# icon_link_img(
-#     icon = "orcid.png",
-#     url  = "https://orcid.org/0000-0001-8971-3784"
-# )
-# 
-# icon_link_img(
-#     icon = "twitter.png",
-#     url = "https://twitter.com/nbarrientos23"
-# )
-
-```
