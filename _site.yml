@@ -1,6 +1,6 @@
 name: "NB_website"
 title: "Nelson Barrientos"
-output_dir: "_docs"
+output_dir: "docs"
 favicon: images/nb_logo.ico
 navbar:
   right:
