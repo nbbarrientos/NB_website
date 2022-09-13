@@ -2,22 +2,28 @@
 title: "Nelson Barrientos"
 image: "images/nbarrientos.png"
 links:
-  - label: GitHub
+  - label: '<img src="images/github.png">'
     url: "https://github.com/nbbarrientos"
-  - label: LinkedIn
+  - label: '<img src="images/linkedin.png">'
     url: "https://www.linkedin.com/in/nelson-barrientos/"
-  - label: Twitter
+  - label: '<img src="images/twitter.png">'
     url: "https://twitter.com/nbarrientos23"
-  - label: Scholar
+  - label: '<img src="images/google-scholar.png">'
     url: "https://scholar.google.com/citations?user=LYvFsmkAAAAJ&hl=en"
-  - label: ORCID
+  - label: '<img src="images/orcid.png">'
     url: "https://orcid.org/0000-0001-8971-3784"
-  - label: Email
+  - label: '<img src="images/email.png">'
     url: "mailto:nbarrie1@jhu.edu"
 site: distill::distill_website
 output:
   postcards::trestles
 ---
 
-# Website under construction
+### Hello there!!!
+
+I'm a graduate student in the Human Genetics PhD program at the Johns Hopkins University School of Medicine. I study noncoding regulatory variation in neuropsychiatric and neurodegenerative diseases such as Schizophrenia and Parkinkson Disease.
+
+#### Education
+- M.S. Clinical Research, University of Virginia, 2020
+- B.S. Biomedical Engineering, University of Virginia, 2017
 

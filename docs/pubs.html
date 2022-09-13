@@ -2282,6 +2282,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     background-color: var(--color-background);
   }
   
+  
   /* Aesthetics for link buttoms */
   .icon-link {
       background-color: var(--color-background);
@@ -2295,7 +2296,26 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
       background-color: var(--color-background);
       font-weight: 700;
   }
-  </style>
+  
+  .btn {
+      display: inline-block;
+      font-weight: 700;
+      color: var(--color-white);
+      text-align: center;
+      vertical-align: middle;
+      background-color: transparent;
+      border: transparent;
+      padding: 0.375rem 0.75rem;
+      font-size: 1rem;
+      line-height: 1.5;
+      border-radius: .25rem;
+      transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+  
+  .btn-outline-dark {
+      color: var(--color-hover-over);
+      border-color: transparent;
+  }</style>
   <style type="text/css">
   /* base style */
   
@@ -2498,7 +2518,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <a href="https://orcid.org/0000-0001-8971-3784" class="nav-image">
 <img src="images/orcid.png"/>
 </a>
-<input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
 </div>
 <div class="nav-right">
 <a href="about.html">About</a>
@@ -2532,6 +2551,12 @@ Research
 
 
 <div class="d-article">
+<h3 id="selected-publications">Selected Publications:</h3>
+<ul>
+<li><p>Ma, W. F., Hodonsky, C. J., Turner, A. W., Wong, D., Song, Y., Mosquera, J. V., Ligay, A. v., Slenders, L., Gancayco, C., Pan, H., <strong>Barrientos, N. B.</strong>, Mai, D., Alencar, G. F., Owsiany, K., Owens, G. K., Reilly, M. P., Li, M., Pasterkamp, G., Mokry, M., … Miller, C. L. <strong>(2022)</strong>. Enhanced single-cell RNA-seq workflow reveals coronary artery disease cellular cross-talk and candidate drug targets. Atherosclerosis, 340, 12–22. <a href="https://doi.org/10.1016/j.atherosclerosis.2021.11.025" class="uri">https://doi.org/10.1016/j.atherosclerosis.2021.11.025</a></p></li>
+<li><p>Hodonsky, C. J., Turner, A., Khan, M. D., López, N. G., Wong, D., <strong>Barrientos, N.</strong>, Kovacic, J. C., Leeper, N. J., Björkegren, J. L. M., &amp; Miller, C. <strong>(2021)</strong>. Ancestrally diverse study populations benefit eQTL discovery and characterization in coronary artery tissue. Atherosclerosis, 331, e215. <a href="https://doi.org/10.1016/j.atherosclerosis.2021.06.659" class="uri">https://doi.org/10.1016/j.atherosclerosis.2021.06.659</a></p></li>
+<li>Ma, W. F., Hodonsky, C., Turner, A., Wong, D., Song, Y., <strong>Barrientos, N.</strong>, Verdezoto Mosquera, J., &amp; Miller, C. <strong>(2021)</strong>. Single-cell RNA-seq analysis of human coronary arteries using an enhanced workflow reveals SMC transitions and candidate drug targets. BioRxiv. <a href="https://doi.org/https://doi.org/10.1101/2020.10.27.357715" class="uri">https://doi.org/https://doi.org/10.1101/2020.10.27.357715</a></li>
+</ul>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
