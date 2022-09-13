@@ -27,7 +27,6 @@ navbar:
       href: https://scholar.google.com/citations?user=LYvFsmkAAAAJ&hl=en
     - image: images/orcid.png
       href: https://orcid.org/0000-0001-8971-3784
-  search: true
   logo:
     image: images/nb_logo.png
     href: index.html

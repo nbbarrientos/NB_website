@@ -16,7 +16,6 @@ icon_link_text(
 
 ```
 
-\newline
 ```{r out.width='1000px', out.height='800px', layout="l-body-outset", fig.align='left', echo=FALSE}
 knitr::include_graphics("cv.pdf")
 ```

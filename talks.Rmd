@@ -6,3 +6,13 @@ title: "Talks"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+- **Bar Harbor, ME - July 2022:**
+    + The Jackson Laboratory
+        + 63^rd^ McKusick Short Course: Human and Mammalian Genetics and Genomics    
+          **Poster Presentation:** Evaluating the biological relevance of putative enhancer sequences implicated Schizophrenia.
+
+- **Online - October 2020:**
+    + American Society of Human Genetics:
+        + **Session:** Improving our understanding of the causes and consequences of cardiometabolic dysfunction.  
+          **Abstract and Presentation Title:** Differential splicing analysis and mapping splicing quantitative trait loci in coronary artery disease.  
+          **Presenter:** Nelson Barrientos
