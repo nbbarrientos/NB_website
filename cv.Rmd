@@ -11,11 +11,11 @@ source(file.path("R", "functions.R"))
 
 icon_link_text(
     text = "Download",
-    url  = "cv.pdf"
+    url  = "files/cv.pdf"
 )
 
 ```
 
 ```{r out.width='1000px', out.height='800px', layout="l-body-outset", fig.align='left', echo=FALSE}
-knitr::include_graphics("cv.pdf")
+knitr::include_graphics("files/cv.pdf")
 ```

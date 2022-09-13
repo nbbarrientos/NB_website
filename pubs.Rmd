@@ -5,12 +5,14 @@ title: "Publications"
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 source(file.path("R", "functions.R"))
+pubs = get_pubs()
 ```
 
-### Selected Publications:
 
-- Ma, W. F., Hodonsky, C. J., Turner, A. W., Wong, D., Song, Y., Mosquera, J. V., Ligay, A. v., Slenders, L., Gancayco, C., Pan, H., **Barrientos, N. B.**, Mai, D., Alencar, G. F., Owsiany, K., Owens, G. K., Reilly, M. P., Li, M., Pasterkamp, G., Mokry, M., ... Miller, C. L. **(2022)**. Enhanced single-cell RNA-seq workflow reveals coronary artery disease cellular cross-talk and candidate drug targets. Atherosclerosis, 340, 12–22. https://doi.org/10.1016/j.atherosclerosis.2021.11.025
+### Peer-reviewed publications
 
-- Hodonsky, C. J., Turner, A., Khan, M. D., López, N. G., Wong, D., **Barrientos, N.**, Kovacic, J. C., Leeper, N. J., Björkegren, J. L. M., & Miller, C. **(2021)**. Ancestrally diverse study populations benefit eQTL discovery and characterization in coronary artery tissue. Atherosclerosis, 331, e215. https://doi.org/10.1016/j.atherosclerosis.2021.06.659
+`r make_pub_list(pubs, "peer_reviewed")`
 
-- Ma, W. F., Hodonsky, C., Turner, A., Wong, D., Song, Y., **Barrientos, N.**, Verdezoto Mosquera, J., & Miller, C. **(2021)**. Single-cell RNA-seq analysis of human coronary arteries using an enhanced workflow reveals SMC transitions and candidate drug targets. BioRxiv. https://doi.org/https://doi.org/10.1101/2020.10.27.357715
+### Prepint publications
+
+`r make_pub_list(pubs, "prepint")`

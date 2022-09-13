@@ -2155,10 +2155,11 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --font-header: 'Roboto Condensed', sans-serif;
     --font-mono:   'Roboto Condensed', sans-serif;
   
-    --color-background:   #010445;
-    --color-white:      rgba(247, 247, 250, 1);
-    --color-text-hover:    rgba(221, 250, 2, 0.8);
-    --color-hover-over:     #1c157d;
+    --color-background:   #494952;
+    --color-white:        #fcfcfc;
+    --color-text:         #000000;
+    --color-hover-over:   #5b5b66;
+    --color-buttom:       #57c953;
   }
   
   /* base variables */
@@ -2224,7 +2225,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --title-size:       18px;
     --text-color:       var(--color-white);
     --text-size:        17px;
-    --hover-color:      var(--color-text-hover);
+    --hover-color:      var(--color-white);
     --bkgd-color:       var(--color-background);
     --navbar-font:      var(--font-body);
   }
@@ -2251,7 +2252,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   
   /* Modifies color of dropdown menu in navbar*/
   .nav-dropdown-content {
-    color: black;
+    color: var(--color-text);
     background-color: var(--color-white);
     font-family: var(--font-body);
   }
@@ -2266,7 +2267,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   .distill-site-header .nav-image:hover {
     background-color: var(--color-hover-over);
   }
-  
   
   .distill-site-header a:hover {
     background-color: var(--color-hover-over);
@@ -2285,15 +2285,15 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   
   /* Aesthetics for link buttoms */
   .icon-link {
-      background-color: var(--color-background);
-      color: var(--color-text-hover);
+      background-color: var(--color-buttom);
+      color: var(--color-text);
       padding: 3px 7px 3px 7px;
       margin: 0 2px 0 2px;
       border-radius: 6px; /* Rounded edges */
   }
   
   .icon-link:hover {
-      background-color: var(--color-background);
+      background-color: var(--color-buttom);
       font-weight: 700;
   }
   
@@ -2551,12 +2551,32 @@ Research
 
 
 <div class="d-article">
-<h3 id="selected-publications">Selected Publications:</h3>
-<ul>
-<li><p>Ma, W. F., Hodonsky, C. J., Turner, A. W., Wong, D., Song, Y., Mosquera, J. V., Ligay, A. v., Slenders, L., Gancayco, C., Pan, H., <strong>Barrientos, N. B.</strong>, Mai, D., Alencar, G. F., Owsiany, K., Owens, G. K., Reilly, M. P., Li, M., Pasterkamp, G., Mokry, M., … Miller, C. L. <strong>(2022)</strong>. Enhanced single-cell RNA-seq workflow reveals coronary artery disease cellular cross-talk and candidate drug targets. Atherosclerosis, 340, 12–22. <a href="https://doi.org/10.1016/j.atherosclerosis.2021.11.025" class="uri">https://doi.org/10.1016/j.atherosclerosis.2021.11.025</a></p></li>
-<li><p>Hodonsky, C. J., Turner, A., Khan, M. D., López, N. G., Wong, D., <strong>Barrientos, N.</strong>, Kovacic, J. C., Leeper, N. J., Björkegren, J. L. M., &amp; Miller, C. <strong>(2021)</strong>. Ancestrally diverse study populations benefit eQTL discovery and characterization in coronary artery tissue. Atherosclerosis, 331, e215. <a href="https://doi.org/10.1016/j.atherosclerosis.2021.06.659" class="uri">https://doi.org/10.1016/j.atherosclerosis.2021.06.659</a></p></li>
-<li>Ma, W. F., Hodonsky, C., Turner, A., Wong, D., Song, Y., <strong>Barrientos, N.</strong>, Verdezoto Mosquera, J., &amp; Miller, C. <strong>(2021)</strong>. Single-cell RNA-seq analysis of human coronary arteries using an enhanced workflow reveals SMC transitions and candidate drug targets. BioRxiv. <a href="https://doi.org/https://doi.org/10.1101/2020.10.27.357715" class="uri">https://doi.org/https://doi.org/10.1101/2020.10.27.357715</a></li>
-</ul>
+<h3 id="peer-reviewed-publications">Peer-reviewed publications</h3>
+<div class="pub">
+<p>
+<ol type="1">
+<li>Ma, W. F., Hodonsky, C. J., Turner, A. W., Wong, D., Song, Y., Mosquera, J. V., Ligay, A. v., Slenders, L., Gancayco, C., Pan, H., <strong>Barrientos, N. B.</strong>, Mai, D., Alencar, G. F., Owsiany, K., Owens, G. K., Reilly, M. P., Li, M., Pasterkamp, G., Mokry, M., … Miller, C. L. (2022) “Enhanced single-cell RNA-seq workflow reveals coronary artery disease cellular cross-talk and candidate drug targets.” <em><em>Atherosclerosis</em></em>. <em>340</em>, 12–22 . DOI: <a href="https://doi.org/10.1016/j.atherosclerosis.2021.11.025">10.1016/j.atherosclerosis.2021.11.025</a>
+</p>
+<a href="https://doi.org/10.1016/j.atherosclerosis.2021.11.025" class="icon-link" target="_blank" rel="noopener">Link to paper</a>
+</div>
+<div class="pub">
+<p>
+<ol start="2" type="1">
+<li>Hodonsky, C. J., Turner, A., Khan, M. D., López, N. G., Wong, D., <strong>Barrientos, N.</strong>, Kovacic, J. C., Leeper, N. J., Björkegren, J. L. M., &amp; Miller, C. (2021) “Ancestrally diverse study populations benefit eQTL discovery and characterization in coronary artery tissue.” <em><em>Atherosclerosis</em></em>. <em>331</em>, e215 . DOI: <a href="https://doi.org/10.1016/j.atherosclerosis.2021.06.659">10.1016/j.atherosclerosis.2021.06.659</a>
+</p>
+<a href="https://doi.org/10.1016/j.atherosclerosis.2021.06.659" class="icon-link" target="_blank" rel="noopener">Link to paper</a>
+</div></li>
+</ol></li>
+</ol>
+<h3 id="prepint-publications">Prepint publications</h3>
+<div class="pub">
+<p>
+<ol type="1">
+<li>Ma, W. F., Hodonsky, C., Turner, A., Wong, D., Song, Y., <strong>Barrientos, N.</strong>, Verdezoto Mosquera, J., &amp; Miller, C. (2021) “Single-cell RNA-seq analysis of human coronary arteries using an enhanced workflow reveals SMC transitions and candidate drug targets.” <em><em>BioRxiv</em></em>. DOI: <a href="https://doi.org/10.1101/2020.10.27.357715">10.1101/2020.10.27.357715</a>
+</p>
+<a href="https://doi.org/10.1101/2020.10.27.357715" class="icon-link" target="_blank" rel="noopener">Link to paper</a>
+</div></li>
+</ol>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
